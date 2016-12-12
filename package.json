@@ -4,6 +4,7 @@
   "description": "Downloads Linux source for use when compiling NodeOS",
   "author": "Josh Garde <joshgarde@gmail.com>",
   "license": "MIT",
+  "main": "include_dirs.js"
   "scripts": {
     "install": "node install.js"
   },
