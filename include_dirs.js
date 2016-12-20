@@ -1,1 +1,1 @@
-console.log(require('path').relative('linux', __dirname));
+console.log(require('path').relative('linux', __dirname))
