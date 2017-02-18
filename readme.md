@@ -1,6 +1,6 @@
 # nodeos-linux
 
-Downloads Linux source for use with compiling parts of NodeOS
+Downloads Linux source for use when compiling NodeOS
 
 ## Why?
 
