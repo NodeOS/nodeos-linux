@@ -1,5 +1,7 @@
 # nodeos-linux
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NodeOS/nodeos-linux.svg)](https://greenkeeper.io/)
+
 Downloads Linux source for use when compiling NodeOS
 
 ## Why?
