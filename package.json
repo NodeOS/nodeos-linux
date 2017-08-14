@@ -9,9 +9,7 @@
     "install": "scripts/install"
   },
   "dependencies": {
-    "async": "^2.1.4",
-    "download-manager": "^0.1.3",
-    "fs-extra": "^2.0.0"
+    "download-manager": "^0.1.3"
   },
   "repository": "NodeOS/nodeos-linux",
   "devDependencies": {
