@@ -37,6 +37,9 @@ var download =
   ]
 }
 
+if(process.platform === 'darwin')
+  download.patch = 'patches/linux-darwin.diff'
+
 
 manager(download, function(error)
 {
