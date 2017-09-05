@@ -3,11 +3,11 @@
 const manager = require('download-manager')
 
 
-const PKG = require('./package.json')
+const PKG = require('../package.json')
 
-const LINUX_VERSION = PKG.version
+const LINUX_VERSION = PKG.version.split('.').filter((item)=>parseInt(item)).join('.')
 const LINUX_URL     = "https://www.kernel.org/pub/linux/kernel/v4.x/linux-"+LINUX_VERSION+".tar.gz"
-const LINUX_SHA256  = 'b8dd5365c9f4319d41781f65f27b116ae7981d791bbad46491617fee0f87f8cc'
+const LINUX_SHA256  = PKG.buho.sha256
 
 
 var download =
