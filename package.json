@@ -1,7 +1,7 @@
 {
   "name": "nodeos-linux",
-  "description": "Downloads Linux source for use when compiling NodeOS",
   "version": "4.13.0",
+  "description": "Downloads and patch Linux kernel source code to use in NodeOS",
   "author": "Josh Garde <joshgarde@gmail.com>",
   "contributors": [
     "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>"
@@ -12,7 +12,7 @@
     "install": "scripts/install"
   },
   "dependencies": {
-    "download-manager": "^0.1.3"
+    "download-manager": "^0.1.4"
   },
   "repository": "NodeOS/nodeos-linux",
   "devDependencies": {
