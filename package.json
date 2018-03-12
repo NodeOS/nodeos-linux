@@ -8,8 +8,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "prepublish": "nodeos-standard",
-    "install": "scripts/install"
+    "ci": "buho-SemaphoreCI",
+    "install": "scripts/install",
+    "prepublish": "nodeos-standard"
   },
   "dependencies": {
     "download-manager": "^0.1.4"
