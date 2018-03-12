@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/nodeos/nodeos-linux/branches/master/badge.svg)](https://semaphoreci.com/nodeos/nodeos-linux)
+
 # nodeos-linux
 
 Downloads Linux source for use when compiling NodeOS
