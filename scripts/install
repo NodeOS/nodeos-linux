@@ -6,7 +6,7 @@ const manager = require('download-manager')
 const PKG = require('../package.json')
 
 const LINUX_VERSION = PKG.version.split('.').filter((item)=>parseInt(item)).join('.')
-const LINUX_URL     = "https://www.kernel.org/pub/linux/kernel/v4.x/linux-"+LINUX_VERSION+".tar.gz"
+const LINUX_URL     = `${PKG.buho.url}/linux-${LINUX_VERSION}.tar.gz`
 const LINUX_SHA256  = PKG.buho.sha256
 
 
