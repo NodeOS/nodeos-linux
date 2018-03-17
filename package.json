@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "ci": "buho-SemaphoreCI",
-    "install": "scripts/install",
+    "install": "scripts/install.js",
     "prepublish": "nodeos-standard"
   },
   "dependencies": {
