@@ -24,7 +24,7 @@
     "nodeos-standard": "^0.3.0"
   },
   "buho": {
-    "sha256": {},
+    "sha256": "dcb9fbd141c343f7b5ea043fbae72f5e24a19842126e0aa76a499d9f006969d7",
     "type": "DirectoryIndex",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v4.x"
   },
