@@ -11,7 +11,7 @@ const LINUX_SHA256  = PKG.buho.sha256
 
 
 // Patch Linux kernel to add Unicode BMP support on `fbcon`
-const LINUX_CJKTTY_VERSION = "4.12"
+const LINUX_CJKTTY_VERSION = "4.14"
 const LINUX_CJKTTY_PATCH = "https://raw.githubusercontent.com/NodeOS/cjktty-patch/master/patches/linux-"+LINUX_CJKTTY_VERSION+"-cjktty.diff"
 
 
