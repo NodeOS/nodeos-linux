@@ -10,7 +10,8 @@
   "scripts": {
     "ci": "buho-SemaphoreCI",
     "install": "scripts/install.js",
-    "lint": "nodeos-standard"
+    "lint": "nodeos-standard",
+    "test": "grep nodeos linux/include/linux/linux_logo.h -q"
   },
   "dependencies": {
     "download-manager": "^0.1.4"
