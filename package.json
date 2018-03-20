@@ -10,7 +10,7 @@
   "scripts": {
     "ci": "buho-SemaphoreCI",
     "install": "scripts/install.js",
-    "prepublish": "nodeos-standard"
+    "lint": "nodeos-standard"
   },
   "dependencies": {
     "download-manager": "^0.1.4"
