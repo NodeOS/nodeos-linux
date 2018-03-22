@@ -1,6 +1,6 @@
 {
   "name": "nodeos-linux",
-  "version": "4.15.11",
+  "version": "4.15.12",
   "description": "Downloads and patch Linux kernel source code to use in NodeOS",
   "author": "Josh Garde <joshgarde@gmail.com>",
   "contributors": [
@@ -25,7 +25,7 @@
     "nodeos-standard": "^0.3.0"
   },
   "buho": {
-    "sha256": "b3c208f4390e152308415ac18932d519eadf36619d13a7edcd2db8c4ab5d8b68",
+    "sha256": "80e1683d58498849c1a9775b44c732448dc992b0b5236f6568a6418181eafb14",
     "type": "DirectoryIndex",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v4.x"
   },
